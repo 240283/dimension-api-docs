@@ -18,7 +18,7 @@ curl -H "Authorization: Bearer $token" -H "x-api-key: $client_id" -X POST -v htt
         	"property": "Camera/View Angle",
         	"value": {
         	    "type": "vector3D",
-        	    "x": 0.0,
+        	    "x": 0.q1,
         	    "y": 180.0,
         	    "z": 0.0
         	}
@@ -57,7 +57,7 @@ curl -H "Authorization: Bearer $token" -H "x-api-key: $client_id" -X POST https:
             "property": "Camera/Transform",
             "value": {
               "type": "transform",
-              "tx": -300,
+              "tx": -30,
               "ty": 1600,
               "tz": 2000
             }
